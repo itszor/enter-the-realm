@@ -1,0 +1,218 @@
+{
+ "name": "enter-the-realm",
+ "title": "Enter the Realm (The Fourth Dimension, 1991)",
+ "platform": "acorn-archimedes",
+ "doc": "A recipe: how to turn a user's own copy of the game into a native executable. It holds no game data: the inputs are recognised by content (see $SS/tools/weave.py). Either release: the first (TOSEC) or version 2 (1992: JASPP's, .jfd images).",
+ "inputs": {
+  "containers": {},
+  "formats": [
+   "adf",
+   "jfd",
+   "zip"
+  ]
+ },
+ "discs": [
+  {
+   "name": "disc1",
+   "title": "Disk 1 of 3 (the intro, the loader, the sounds; !SOUNDS, the music's instruments)",
+   "known_images": [
+    "10e31b7c91102a09018fdae701f72becddb1fac3581c7ccbd0016d0ae167d792"
+   ],
+   "key_files": {
+    "!Realm/!RUN": "5832f24c377f95ae26535cc329ac478da1acbb4c3eb614ff3684f59acd52fea4",
+    "!Realm/!SETUP": "5328a2a8b0e67d35f2eea3e9843b4681f9d3a4892c0db84ffb84fc3be7780d3c",
+    "!Realm/QUICK": "894db47ea1aa6e50bf1fbaa8fe61b36a5473e14e08bbd78226fcc5b9c6909e96",
+    "!Realm/Startup": "ff822be5f99e816ef0902c0ccb7e0f78ac2528efed9982d6af73375492a53bb6",
+    "!Realm/Loader": "9d537799df8a5ee1ff28ab016b5423c6616b5a430f056e7de888af549775dcd8",
+    "!Realm/MODS/ExSound": "4be2ec6f9d91be581831d954f627dd078ec3df0428eb62631783ef724d7ae63e",
+    "!Realm/MODS/RAIN": "e83df09f651a07b21c2c62d76e5084fc55a1a3c62f816a9fd9d957a00749057f",
+    "!Realm/MODS/SWORD": "395ce714bec967f0ea5bda886ff804d8c6db5cfb4d1787021dad999f564f3f8c",
+    "!Realm/MODS/BOUNCE": "2282e383ad39539d770596b18ec7922fdef9bdbb0d9ce6a0c45ed509185bc06b",
+    "!Realm/MODS/PICKUP": "d89be2ccf1f09cef38634811441fcf8035422c8907903b93fe16f85aeb709ecd",
+    "!Realm/MODS/DOOR": "57c85df4b220b8f266721a334d69509e5dc5c1abc3cfc2a506f4523cd06f673a",
+    "!Realm/MODS/EXPLOS": "2101b91bf8c1715e9c30da3256e84e97ff4a810229693d1c582fc18d3a5144e9",
+    "!Realm/MODS/DEATH": "1adfe2dd28a79bbb83e0151d7720a3c0424e77663a622d071b44404b04e75dab",
+    "!Realm/MODS/OUCH": "c2fe170415216d6f7b7ce13d2c5081d72647664a003f099330f84e7984a7bfb8",
+    "!Realm/MODS/SPELL": "fea2f4abe9f3b69f768be54aa95b787acebe0241b6c8f527bccdc2e5feead8b1",
+    "!Realm/MODS/BARK": "1ecac25048a9ad731f402b415cca2704fc04527e770efbf9609db44a2fc126ed",
+    "!Realm/MODS/GETREADY": "bd1280c78148acce7d101853cd410d62c9f68f5fbbf90a4ebe66045e21c8a5c9",
+    "!Realm/MODS/GAMEOVER": "10a4800d4ae756b026396fcb492263b8d765c6635c559762dec8bd05d7c81e95",
+    "!Realm/MODS/DRUMS": "bf9d146f082be7a62b81b50e2334c6c68de27d5d55203f3762578cb29483b025",
+    "!Realm/MODS/DRUMSE": "adbaee8c8bcbf21206870f80ee83748f7bad9aec020e0762a75ef73e5f4a5c62",
+    "!Realm/Intro/TITLEMUS": "90bcc75733d1d6028b7a728c5f1b0270e9e37df37b368a09d2ef4fae2cc453c0",
+    "!Realm/Sprites/FONT": "4334ef8100eabaf0db4d3bb7f31542ec32eea9c847b88f54fda0dc5ee5646dc1",
+    "!Realm/Sprites/GraphCom1": "f19d4dc9487dccc5b1c87f6656408a9f49c593fa446b3ebb61af6c3bf3e44635",
+    "!SOUNDS/CYBERHIHAT": "6e9e99b44c67ca349e222abf4cdeddec886103d3c8e1ff95879cf6ba3ef65f6f",
+    "!SOUNDS/PANFLUTE1": "b3eb20fa091789a8dbebf67f5f38fd6abdcab21e66c0516496dd265a9937dd7e",
+    "!SOUNDS/SNARE8": "126d7c3cc6d491f3628f228123a5e32cf9ed64bcccdd6217cb4982108fc7d30a"
+   },
+   "game_dirs": [
+    "!Realm",
+    "!SOUNDS"
+   ],
+   "alternatives": [
+    {
+     "name": "disc1v2",
+     "title": "Disk 1 of 3, version 2 (1992; JASPP F1013401): as disc 1, its files protected (MODS.Wand: Merlin; the key is a sector with a bad CRC, so its image is kept)",
+     "known_images": [
+      "14779e7135435e03a756b1a51d8af9ab2a2be35fc554291d6b3e52893a97eedf"
+     ],
+     "key_files": {
+      "!Realm/!RUN": "3b48730cf866dc66033b00aab53cb7d6899625e18d3d3368f8a7816812aa13d4",
+      "!Realm/!SETUP": "5328a2a8b0e67d35f2eea3e9843b4681f9d3a4892c0db84ffb84fc3be7780d3c",
+      "!Realm/QUICK": "f1d8b5d28f96ebdfc0f4c2293437ab64ffee75b747a1b5c834ace00d1a091c7a",
+      "!Realm/Startup": "e378dbeecd8a2f6d2f1e08c01df26fe8425b8b93474838f51028c3008fe973f6",
+      "!Realm/Loader": "db374ea65f8c6d76c3224c15362cb2abb024aab1bc6a6dd7507cac5715df376b",
+      "!Realm/MODS/ExSound": "4be2ec6f9d91be581831d954f627dd078ec3df0428eb62631783ef724d7ae63e",
+      "!Realm/MODS/RAIN": "e83df09f651a07b21c2c62d76e5084fc55a1a3c62f816a9fd9d957a00749057f",
+      "!Realm/MODS/SWORD": "395ce714bec967f0ea5bda886ff804d8c6db5cfb4d1787021dad999f564f3f8c",
+      "!Realm/MODS/BOUNCE": "2282e383ad39539d770596b18ec7922fdef9bdbb0d9ce6a0c45ed509185bc06b",
+      "!Realm/MODS/PICKUP": "d89be2ccf1f09cef38634811441fcf8035422c8907903b93fe16f85aeb709ecd",
+      "!Realm/MODS/DOOR": "57c85df4b220b8f266721a334d69509e5dc5c1abc3cfc2a506f4523cd06f673a",
+      "!Realm/MODS/EXPLOS": "2101b91bf8c1715e9c30da3256e84e97ff4a810229693d1c582fc18d3a5144e9",
+      "!Realm/MODS/DEATH": "1adfe2dd28a79bbb83e0151d7720a3c0424e77663a622d071b44404b04e75dab",
+      "!Realm/MODS/OUCH": "c2fe170415216d6f7b7ce13d2c5081d72647664a003f099330f84e7984a7bfb8",
+      "!Realm/MODS/SPELL": "fea2f4abe9f3b69f768be54aa95b787acebe0241b6c8f527bccdc2e5feead8b1",
+      "!Realm/MODS/BARK": "1ecac25048a9ad731f402b415cca2704fc04527e770efbf9609db44a2fc126ed",
+      "!Realm/MODS/GETREADY": "bd1280c78148acce7d101853cd410d62c9f68f5fbbf90a4ebe66045e21c8a5c9",
+      "!Realm/MODS/GAMEOVER": "10a4800d4ae756b026396fcb492263b8d765c6635c559762dec8bd05d7c81e95",
+      "!Realm/MODS/DRUMS": "bf9d146f082be7a62b81b50e2334c6c68de27d5d55203f3762578cb29483b025",
+      "!Realm/MODS/DRUMSE": "adbaee8c8bcbf21206870f80ee83748f7bad9aec020e0762a75ef73e5f4a5c62",
+      "!Realm/Intro/TITLEMUS": "90bcc75733d1d6028b7a728c5f1b0270e9e37df37b368a09d2ef4fae2cc453c0",
+      "!Realm/Sprites/FONT": "ea58c2563ff4c7a1efe97856e05fa2edd059ddbf413a7bb932ebca29bdad1176",
+      "!Realm/Sprites/GraphCom1": "f19d4dc9487dccc5b1c87f6656408a9f49c593fa446b3ebb61af6c3bf3e44635",
+      "!SOUNDS/CYBERHIHAT": "6e9e99b44c67ca349e222abf4cdeddec886103d3c8e1ff95879cf6ba3ef65f6f",
+      "!SOUNDS/PANFLUTE1": "b3eb20fa091789a8dbebf67f5f38fd6abdcab21e66c0516496dd265a9937dd7e",
+      "!SOUNDS/SNARE8": "126d7c3cc6d491f3628f228123a5e32cf9ed64bcccdd6217cb4982108fc7d30a",
+      "!Realm/MODS/Wand": "03462e267b9f2beff410c09e123d5c7680206abf44d7048f60545802015f2ab8",
+      "!Realm/Intro/LOGO": "facb2e35e5669c59b06bb3027a712cdc06cfc6e5d973e787f2d9e83b302ade2f",
+      "!Realm/Intro/LOGO2": "5d50b9a11ceb8f6ba29fced7ecf9aa799468104eeb420498e331be714354a793",
+      "!Realm/Sprites/FONT1": "c085e3aafce42adf349eec2633c8f191df41b8f55be09f573804507391aede5c",
+      "!Realm/Intro/HORSE": "4923f21c0840ec6666fdf0693afee89752b64fa6dd11a6399b5e151b1a0e83f6"
+     },
+     "game_dirs": [
+      "!Realm",
+      "!SOUNDS"
+     ],
+     "raw": true
+    }
+   ]
+  },
+  {
+   "name": "disc2",
+   "title": "Disk 2 of 3 (REALM2: the first levels)",
+   "known_images": [
+    "927c5928feca1f8cce47698c0b174ef5f8e69d0d9e1bed2ebf4752eb86b0d0e2"
+   ],
+   "key_files": {
+    "REALM2/Starter": "e3d4b3375fd7ff871dce7eed43f987501cbd9927e863e6423303cfb872cb819e",
+    "REALM2/DefKeys": "8f0f45dec376e2cc7a056ebc2dedca62a6b736c3eaad867f4497a7a964c30d13",
+    "REALM2/X": "cbff15d99610127c8e676c23da9e1a3c255ae97c0a1245fadb025f1096570eb7",
+    "REALM2/GAMEOVER": "26e5f088ea1305bb3b3a9468906ababe8a7b96356750e26a8eab821bdc71e66c",
+    "REALM2/Data/CODE": "f095fb64479e3beafc3688db3fb0207b295a3671a3bcae91a62ce44bd635e245",
+    "REALM2/SNOW/CODECX": "46692408c2a3be04783e95c4d4daaf09191de54ac2d469e9e2083195d45088a2",
+    "REALM2/FOREST/CODECX": "35c5d751312c65bd8c321f883c33de02a384eef35772649f28c7897c50894c2a",
+    "REALM2/CAVES/CODECX": "429727eb44bc4da0ce292e9650a28e2dd097b0685524461a0aa254cb61bfec86",
+    "REALM2/PLAINS/CODECX": "33923086144065ac3fd4a59582005ccabc13105f621b7decf5d79ee733fe5b27",
+    "REALM2/Graphics/Panel": "8f2a5f0be0b821db98227c0b9698efa2111e5d777e8f3ed159d9bd1b1643f0ca",
+    "REALM2/SNOW/FBG": "0d3c9ae77eac2d962784f5d963592f58149924e36d768cdb474128b9a78926c6"
+   },
+   "game_dirs": [
+    "REALM2"
+   ],
+   "alternatives": [
+    {
+     "name": "disc2v2",
+     "title": "Disk 2 of 3, version 2 (JASPP F1013402): the engine for RISC OS 3 and for RISC OS 2",
+     "known_images": [
+      "3005f7364dc5d11b0ad507e340097b5ecd830b44bb03abb2b7801a27cabe8308"
+     ],
+     "key_files": {
+      "REALM2/Starter": "26006e33e9fa66eceaf7f80d34ea5aa5e5d27389452cbad1e39b629ab0ba1f83",
+      "REALM2/DefKeys": "7f656944b9ca4f19ba6d531ddec572e80b972634a219516c219b7587f8b6bd7f",
+      "REALM2/X": "4141b84bf407ef1a6790da869f18d516d5ec694056051efe494eab09834f867b",
+      "REALM2/GAMEOVER": "637dd45069f344d551443b7a720492689402e73ae20c9a5bf1bac6f9c68d51c7",
+      "REALM2/Data/CODE": "f5447f5e266fc60e5d2d67de0886600a6cabde038b6b349f8359d8fbf0ff91d4",
+      "REALM2/SNOW/CODECX": "46692408c2a3be04783e95c4d4daaf09191de54ac2d469e9e2083195d45088a2",
+      "REALM2/FOREST/CODECX": "35c5d751312c65bd8c321f883c33de02a384eef35772649f28c7897c50894c2a",
+      "REALM2/CAVES/CODECX": "429727eb44bc4da0ce292e9650a28e2dd097b0685524461a0aa254cb61bfec86",
+      "REALM2/PLAINS/CODECX": "33923086144065ac3fd4a59582005ccabc13105f621b7decf5d79ee733fe5b27",
+      "REALM2/Graphics/Panel": "8f2a5f0be0b821db98227c0b9698efa2111e5d777e8f3ed159d9bd1b1643f0ca",
+      "REALM2/SNOW/FBG": "0d3c9ae77eac2d962784f5d963592f58149924e36d768cdb474128b9a78926c6",
+      "REALM2/Data/CODE2": "f0162fdc3e01fb34a9b6ab210ea8898a66d9a35c99a55f9cb6d39192ccdbced5"
+     },
+     "game_dirs": [
+      "REALM2"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "disc3",
+   "title": "Disk 3 of 3 (REALM3: the last levels, the finale)",
+   "known_images": [
+    "ff909b49c8da05c25a5310d961a13cb38b9a2ef7401aa4b85463bec553016e97"
+   ],
+   "key_files": {
+    "REALM3/X": "e97ce89f50a834e77631e4a701dbf7414839d4993cf082b1dac00b98e04226b0",
+    "REALM3/X2": "68f4f17a815e031be8ff774f2927645fb9dcd1b2a78a8824a4a94e3f0b78dfb8",
+    "REALM3/X3": "66c64fe15690c9df21068d27d9b011319b6246193fdd78d10d2c662b6b911d02",
+    "REALM3/CODE": "891583af8bf10e9496dfc79e5bac0a2f3af5be8254c90007424007f692f6612b",
+    "REALM3/CODE2": "893092484df0945de1f5f7ec8eb46dacce8ac49814aa4a98f547d24530d2afdd",
+    "REALM3/CODE3": "1488dc74e0b7f23577f5e27e06df476f96eff6f527a2d81707ce22c524b217cd",
+    "REALM3/OUTSIDE/CODECX": "50414a0e7eeea7fa1e0d1aa0c03b5357f7091b375c30e6e2448ef42606119e70",
+    "REALM3/HALL/CODECX": "6471072aec81c9ae52838ad0609b537cf296a2453667b1ca8c596a62dff90df8",
+    "REALM3/CITY/CODECX": "01c38d4c7a51b1d28e4c97c0af676a566c04aac05ca49c52b8a0fa89c7d68d09",
+    "REALM3/FINALE/LOADER": "e19c75377116fc6442ff75e8d809d3696a0dbfa2165cd86ae41a65e3357a493a",
+    "REALM3/CITY/FBG": "1e8310cd9aa4885f2fde35b05e42276831591132a0e1f745f23243fca5b5e99d"
+   },
+   "game_dirs": [
+    "REALM3"
+   ],
+   "alternatives": [
+    {
+     "name": "disc3v2",
+     "title": "Disk 3 of 3, version 2 (JASPP F1013403)",
+     "known_images": [
+      "c8d3d6db19ede48efc6930d286278674000b0fd38458d1bbb1c61618582f4a7f"
+     ],
+     "key_files": {
+      "REALM3/X": "50babf2fbe556e2f23164a897f7afdbca4347991834583f4c25b86e5f981734f",
+      "REALM3/X2": "598c13c04d91df293cb8228688aa1b058837e8db407074778e72ea46a24d64ed",
+      "REALM3/X3": "3e8bc45ca582a8c35df9b05a743f111c8634d78a20ddc43c708148cf8b035038",
+      "REALM3/CODE": "f5447f5e266fc60e5d2d67de0886600a6cabde038b6b349f8359d8fbf0ff91d4",
+      "REALM3/CODE2": "5535d0647cbb1197c7b598873c00fc565c3884e0e752dd3e7d36f0f32fc7adaf",
+      "REALM3/CODE3": "3ec36966b7e287fe542f6af211093ee38c82fb3923b1902c1c903a235258251d",
+      "REALM3/OUTSIDE/CODECX": "50414a0e7eeea7fa1e0d1aa0c03b5357f7091b375c30e6e2448ef42606119e70",
+      "REALM3/HALL/CODECX": "6471072aec81c9ae52838ad0609b537cf296a2453667b1ca8c596a62dff90df8",
+      "REALM3/CITY/CODECX": "01c38d4c7a51b1d28e4c97c0af676a566c04aac05ca49c52b8a0fa89c7d68d09",
+      "REALM3/FINALE/LOADER": "395313cb8e45f9b8905e0aaf2108805aa0348e0512e2ab013abaaf34a27e8daf",
+      "REALM3/CITY/FBG": "1e8310cd9aa4885f2fde35b05e42276831591132a0e1f745f23243fca5b5e99d",
+      "REALM3/CODE2R": "f0162fdc3e01fb34a9b6ab210ea8898a66d9a35c99a55f9cb6d39192ccdbced5",
+      "REALM3/MODS/DRUMS": "bf9d146f082be7a62b81b50e2334c6c68de27d5d55203f3762578cb29483b025"
+     },
+     "game_dirs": [
+      "REALM3"
+     ]
+    }
+   ]
+  }
+ ],
+ "build": [
+  "python3 -I \"$WEAVE\" extract . INPUTS",
+  "python3 -I tools/images.py clean decrypt analyse gen basic",
+  "make -C recomp"
+ ],
+ "output": "recomp/enterrealm",
+ "requires": {
+  "superspider": "~/stuff/superspider, or $SUPERSPIDER (dune build): analyse, gen, tools/bas2c.py, tools/weave.py",
+  "libroger": "~/stuff/libroger, or make ROGER=...",
+  "host": [
+   "python3",
+   "ocaml + dune",
+   "gcc",
+   "SDL3 (pkg-config sdl3)"
+  ]
+ },
+ "run": "cd recomp && ./enterrealm"
+}
